@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::before,
+::after{
+    box-sizing: inherit;
+}
+body{
+    background-image: url(/img/Coconut-cream-coffee.jpeg);
+    background-size: 45%;
+    background-repeat: repeat-y;
+    font-family: Montserrat, serif;
+    margin-left: 49%;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+h4{
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 280px;
+    padding: 15px 25px;
+}
+.rating-container{
+    position: relative;
+    right: 200px;
+    top: 50px;
+    background-color: white;
+    padding: 30px 50px;
+    width: 400px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.fullstar,
+.emptystar{
+    width: 10px;
+}
+.details-container{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.details-wrapper{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+.details-wrapper p:last-of-type{
+    color: rgb(238, 202, 0);
+}
+.details{
+    width: 20px;
+}
+.diy{
+    font-weight: 600;
+    font-style: italic;
+    margin-block: 10px 20px;
+}
+.ingredient{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.ingredient input{
+    margin-right: 10px;
+    accent-color: rgb(238, 202, 0);
+    margin-bottom: 5px;
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.instruction li{
+    margin-bottom: 5px;
+}
